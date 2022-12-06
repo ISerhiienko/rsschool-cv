@@ -1,12 +1,12 @@
 # Ihor Serhiienko
 
-### front end developer
+## front end developer
 
 ## Contacts:
 
 - email: igorserhiyenko@gmail.com
-  - telegram: https://t.me/i_serhiienko
-  - github: https://github.com/ISerhiienko
+- telegram: https://t.me/i_serhiienko
+- github: https://github.com/ISerhiienko
 
 ## About:
 
@@ -30,3 +30,11 @@ function multiply(a, b){
   return a * b;
 }
 ```
+
+## Courses:
+
+Fundamental JavaScript. With practice and projects - https://www.udemy.com/course/fundamental-javascript/
+
+## Languages:
+
+- English (A2)
