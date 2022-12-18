@@ -4,6 +4,7 @@ html {
 
 body {
     margin: 0;
+    font-family: "Montserrat", sans-serif;
 }
 
 ul, ol {
@@ -17,7 +18,7 @@ a {
 }
 
 section {
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .wrapper {
@@ -87,13 +88,14 @@ section {
 }
 
 .logo {
-    margin-top: 20px;
-    margin-bottom: 50px;
+    padding: 30px;
 }
 
 .logo__img {
     width: 240px;
-    height: auto;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
     display: block;
     margin: 0 auto;
 }
@@ -126,13 +128,13 @@ section {
 }
 
 .project__item {
-    font-size: 18px;
+    font-size: 16px;
     color: #000;
     margin-bottom: 10px;
 }
 
 .project__link {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 1.5;
     color: #595959;
     text-decoration: none;
@@ -241,6 +243,26 @@ section {
     background-color: #060f1c;
     color: rgb(17, 199, 175);
     font-weight: 600;
+}
+
+.contacts__wrapper {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.contacts__link {
+    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #000;
+    margin-bottom: 10px;
+    transition: .3s;
+}
+
+.contacts__link:hover {
+    color: #fb6d3a;
+    text-decoration: underline;
 }
 
 .footer {
