@@ -14,36 +14,55 @@
             <div class="logo">
                 <img class="logo__img" src="img/photo.jpg" alt="Фото автора">
             </div>
-            <section class="tech-skills">
-                <h3 class="sidebar__title">Tech Skills</h3>
-                <ul class="tech-skills__list">
-                    <li class="tech-skills__item">
-                        <span class="tech-skills__text">HTML</span>
+            <section class="skills" id="skills">
+                <h3 class="sidebar-title">Tech Skills</h3>
+                <ul class="skills__list">
+                    <li class="skills__item">
+                        <span class="skills__text">HTML</span>
                     </li>
-                    <li class="tech-skills__item">
-                        <span class="tech-skills__text">CSS</span>
+                    <li class="skills__item">
+                        <span class="skills__text">CSS</span>
                     </li>
-                    <li class="tech-skills__item">
-                        <span class="tech-skills__text">JavaScript</span>
+                    <li class="skills__item">
+                        <span class="skills__text">JavaScript</span>
                     </li>
-                    <li class="tech-skills__item">
-                        <span class="tech-skills__text">jQuery</span>
+                    <li class="skills__item">
+                        <span class="skills__text">jQuery</span>
                     </li>
-                    <li class="tech-skills__item">
-                        <span class="tech-skills__text">React</span>
+                    <li class="skills__item">
+                        <span class="skills__text">React</span>
                     </li>
-                    <li class="tech-skills__item">
-                        <span class="tech-skills__text">Redux</span>
+                    <li class="skills__item">
+                        <span class="skills__text">Redux</span>
                     </li>
-                    <li class="tech-skills__item">
-                        <span class="tech-skills__text">Styled components</span>
+                    <li class="skills__item">
+                        <span class="skills__text">Styled components</span>
                     </li>
-                    <li class="tech-skills__item">
-                        <span class="tech-skills__text">Git</span>
+                    <li class="skills__item">
+                        <span class="skills__text">Git</span>
                     </li>
-                    <li class="tech-skills__item">
-                        <span class="tech-skills__text">Gulp</span>
+                    <li class="skills__item">
+                        <span class="skills__text">Gulp</span>
                     </li>
+                </ul>
+            </section>
+
+            <section class="skills">
+                <h3 class="sidebar-title">Soft Skills</h3>
+                <ul class="skills__list">
+                    <li class="skills__item">
+                        <span class="skills__text">Teamwork</span>
+                    </li>
+                    <li class="skills__item">
+                        <span class="skills__text">Problem-solving</span>
+                    </li>
+                    <li class="skills__item">
+                        <span class="skills__text">Communication</span>
+                    </li>
+                    <li class="skills__item">
+                        <span class="skills__text">Self-study</span>
+                    </li>
+            
                 </ul>
             </section>
         </aside>
@@ -132,6 +151,21 @@
                 <h4 class="education__place">Kharkiv Polytechnic University</h4>
                 <h4 class="education__name">Computer Science</h4>
                 <p class="education__period">September 2011 - June 2015 | Ukraine</p>
+            </section>
+
+            <section id="code">
+                <h3 class="title">Code example</h3>
+                <pre class="code">function multiply(a, b){
+    if (!a || !b || typeof(a) != "number" || typeof(b) != "number") {
+        return 0;
+    }
+
+    return a * b;
+}
+
+multiply(10, 20); // 200
+multiply(a, 20); // 0
+multiply("a", "b"); // 0</pre>
             </section>
         
         </div>

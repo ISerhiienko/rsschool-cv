@@ -182,31 +182,40 @@ section {
     background-color: #1e2939;
 }
 
-.sidebar__title {
+.sidebar-title {
     color: #fff;
     font-weight: 700;
-    font-size: 22px;
-    margin-bottom: 10px;
+    font-size: 24px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #303d50;
 }
 
-.tech-skills {
+.skills {
     margin-left: 40px;
 }
 
-.tech-skills__list {
+.skills__list {
     color: #fff;
     padding: 0;
     margin-left: 17px;
 }
 
-.tech-skills__item {
+.skills__item {
     color: #fb6d3a;
 }
 
-.tech-skills__text {
+.skills__text {
     color: #fff;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.5;
+}
+
+.code {
+    padding: 20px;
+    background-color: #060f1c;
+    color: rgb(17, 199, 175);
+    font-weight: 600;
 }
 
 .footer {
