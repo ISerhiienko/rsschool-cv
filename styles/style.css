@@ -2,9 +2,18 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    margin: 0;
+}
+
 ul, ol {
     padding: 0;
     margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 section {
@@ -14,18 +23,24 @@ section {
 .wrapper {
     display: grid;
     grid-template-columns: 3fr 8fr;
-    max-width: 1170px;
+    max-width: 1070px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 50px 15px 0 15px;
 }
 
 .content {
     padding: 0 30px 0 70px;
+    position: relative;
 }
 
 .header {
-    padding-top: 70px;
-    margin-bottom: 50px;
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    background: #fff;
+    padding: 20px;
+    border: 1px dashed #1e2939;
+    border-radius: 20px;
 }
 
 .title {
@@ -39,15 +54,17 @@ section {
 }
 
 .nav__list {
-    display: flex;
-    justify-content: center;
     list-style: none;
     margin: 0;
     padding: 0;
 }
 
 .nav__list-item {
-    margin-right: 30px;
+    margin-bottom: 5px;
+}
+
+.nav__list-item:last-child {
+    margin-bottom: 0;
 }
 
 .nav__list-item:last-child {
@@ -55,10 +72,18 @@ section {
 }
 
 .nav__list-link {
+    display: block;
     color: #324359;
     text-decoration: none;
-    font-size: 20px;
-    font-weight: 700;
+    text-transform: lowercase;
+    font-weight: 500;
+    font-size: 18px;
+    transition: .3s;
+}
+
+.nav__list-link:hover {
+    color: #000;
+    transform: translateX(8px);
 }
 
 .logo {
@@ -219,5 +244,34 @@ section {
 }
 
 .footer {
-    background: pink
+    margin: 20px auto 0;
+    background-color: #1e2939;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: monospace;
+}
+
+.footer__wrapper {
+    max-width: 1000px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.footer__link {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.footer__link img {
+    margin-right: 10px;
+}
+
+.logo-school {
+    width: 200px;
 }
